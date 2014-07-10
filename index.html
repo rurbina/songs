@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+  <script src="songs.js"></script>
+</head>
+<body>
+
+  <div data-role="page" id="index">
+    <div data-role="header">
+      <h1>Canciones</h1>
+    </div>
+    <div data-role="content">
+      <label for="search">Buscar:</label>
+      <input type="search" name="search" id="search" value="" data-clear-btn="true">
+
+      <a href="#lists">Ver listas</a>
+    </div>
+  </div>
+
+  <div data-role="page" id="lists">
+    <div data-role="header">
+      <a href="#index" data-icon="home">Inicio</a>
+      <h1>Listas</h1>
+    </div>
+  </div>
+
+</body>
+</html>
